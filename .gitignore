@@ -1,0 +1,4 @@
+node_modules/*
+!node_modules/app
+bundle_sym.js
+bundle_rel.js

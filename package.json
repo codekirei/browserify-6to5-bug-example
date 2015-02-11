@@ -9,7 +9,8 @@
   },
   "scripts": {
 		"build-sym": "browserify -t 6to5ify lib_sym/app.js > bundle_sym.js",
-		"build-rel": "browserify -t 6to5ify lib_rel/app.js > bundle_rel.js"
+		"build-rel": "browserify -t 6to5ify lib_rel/app.js > bundle_rel.js",
+		"build": "npm run build-sym && npm run build-rel"
   },
   "author": "codekirei",
   "license": "MIT"

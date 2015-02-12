@@ -1,0 +1,7 @@
+{
+	"browserify": {
+		"transform": [
+			"6to5ify"
+		]
+	}
+}

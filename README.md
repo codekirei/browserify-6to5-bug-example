@@ -17,7 +17,7 @@ Compare the bundles. ES6 features persist in `bundle_sym.js`, specifically in th
 
 #Update
 
-This issue is resolved by placing an additional `packge.json` file inside the directory that is symlinked to from `node_modules` (`lib_sym` in this case) declaring the browserify transform.
+This issue is resolved by placing an additional `package.json` file inside the directory that is symlinked to from `node_modules` (`lib_sym` in this case) declaring the browserify transform.
 
 `npm run build` now produces identical bundles.
 
